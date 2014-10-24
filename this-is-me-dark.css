@@ -1,0 +1,85 @@
+/*
+Original design: This is me (dark) (v1.2 - Sep 12, 2012) - A free xhtml/css website template for andreasviklund.com.
+For more information, see http://andreasviklund.com/templates/this-is-me-dark/
+
+Includes:
+jQuery from http://jquery.org/
+Poptrox jQuery plugin by nodethirtythree: http://www.nodethirtythree.com/jquery_plugins.html
+jQuery.ScrollTo and jQuery.LocalScroll by Ariel Flesler: http://flesler.blogspot.com/
+Icons fom http://www.komodomedia.com/
+*/
+
+*{border:0;font:inherit;font-size:100%;margin:0;padding:0;vertical-align:baseline;}
+body{background-color:#fafafa;color:#646464;font:12px/16px Cabin, Helvetica, Arial, sans-serif;}
+ol,ul{list-style:none;list-style-image:none;list-style-position:outside;list-style-type:none;}
+a img{border:none;}
+a{color:#000;text-decoration:none;}
+a:hover,a:focus{color:#666;text-decoration:underline;}
+p{font-family:Cabin, sans-serif;padding:0 2px 10px;}
+h2{color:#333;font:22px Cabin, sans-serif;padding:6px 0 10px;}
+.left{float:left;margin:0 15px 5px 0;}
+.right{float:right;margin:0 0 5px 15px;}
+
+#mainwrap{margin:0 auto;overflow:hidden;position:relative;width:640px;}
+#cardstyle{background-color:#fff;border:1px solid #d4d4d4;height:300px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:600px;}
+#content{background-color:#fafafa;height:300px;overflow:hidden;position:relative;width:600px;}
+#pagecontainer{position:relative;width:9999px;}
+.section{float:left;height:275px;margin-right:50px;padding:0 10px 25px;position:relative;width:568px;}
+
+#menuwrap{margin:0 auto;}
+#iconmenu{bottom:0;clear:both;height:22px;left:180px;overflow:hidden;padding:8px 0 6px 10px;position:absolute;text-align:center;width:auto;z-index:100;}
+#iconmenu li{display:block;float:left;}
+#iconmenu li a{display:block;float:left;opacity:0.4}
+#iconmenu li img{padding:0 10px;}
+#iconmenu li a.selected,#iconmenu li a:hover,#iconmenu li a:focus{opacity:1;}
+
+#start{height:188px;padding:80px 15px 30px;}
+#start h1{color:#2e6dd1;font:normal 90px Allura, Helvetica;line-height:0.9em;margin:0;padding:10px 0;text-align:center;text-shadow:0 1px 0 #fff;}
+p.tagline{color:#666;font-size:16px;text-align:center;}
+
+#bio img{border:3px solid #fff;box-shadow:1px 1px 0px #aaa;}
+
+.poptroxactive{list-style:none;margin:0 auto;padding:0;width:100%;}
+.poptroxactive li{float:left;height:110px;margin:0 30px 8px 0;}
+.poptroxactive li img{border:3px solid #fff;box-shadow:1px 1px 0px #aaa;cursor:pointer;width:100px;}
+.poptrox_popup{background:#fff;border-radius:12px;box-shadow:0px 0px 50px #111;padding:1em 1em 3em;position:relative;}
+.poptrox_popup .loader{background:url('images/loader.gif') top center no-repeat;border-radius:8px;display:block;margin:55px 0 0;text-indent:-9999em;}
+.poptrox_popup .caption{bottom:1em;left:1em;position:absolute;}
+.poptrox_popup .closer{bottom:1em;position:absolute;right:1em;}
+
+#social ul{padding:2px 0;}
+#social li{display:block;float:left;height:46px;margin:0 14px 12px 0;overflow:hidden;width:252px;}
+#social li a{color:#666;display:block;float:left;height:32px;overflow:hidden;padding:0 0 3px;width:252px;}
+#social li a:hover,#social li a:focus{color:#333;text-decoration:none;}
+#social img{float:left;margin:0 16px 0 10px;}
+#social strong{color:#333;display:block;font-size:14px;font-weight:700;}
+
+#address{border-right:1px solid #ddd;float:left;margin-right:20px;padding:0 0 0 1px;width:240px;}
+#address h3{color:#333;font-size:14px;font-weight:700;padding:6px 2px 0;}
+
+#footer{color:#999;text-align:center;width:100%;}
+#footer a{color:#999;}
+
+/* If you want to add styles for the custom page, you can do it by using the ID #custom, like this:
+#custom h2{color:blue;}
+#custom p{text-align:center;}
+*/
+
+/* Custom styles for inverting the default color scheme. See 
+http://andreasviklund.com/learn/this-is-me-template-with-inverted-colorscheme/
+for more information. */
+
+body.inverted {background-color:#1a1a1a;color:#e0e0e0;}
+body.inverted #cardstyle {background-color:#101010;border:1px solid #2a2a2a;}
+body.inverted #content {background-color:#181818;}
+body.inverted h2 {color:#eee;}
+body.inverted #start h1 {color:#ddd;text-shadow:0 1px 0 #111;}
+body.inverted #bio img {border:3px solid #111;box-shadow:0px 0px 2px #000;}
+body.inverted .poptroxactive li img {border:3px solid #111;box-shadow:0px 0px 2px #000;}
+body.inverted .poptrox_popup{background-color:#222;}
+body.inverted #social li a {color:#ddd;}
+body.inverted #social strong {color:#eee;}
+body.inverted #address h3 {color:#eee;}
+body.inverted #address {border:0;}
+body.inverted #footer, body.inverted #footer a {color:#777;}
+body.inverted a {color:#ddd;}
