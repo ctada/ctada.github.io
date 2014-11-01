@@ -20,13 +20,13 @@ h2{color:#333;font:22px Cabin, sans-serif;padding:6px 0 10px;}
 .left{float:left;margin:0 15px 5px 0;}
 .right{float:right;margin:0 0 5px 15px;}
 
-#mainwrap{margin:0 auto;overflow:hidden;position:relative;width:900px;}
-#lgcard{background-color:#fff;border:1px solid #d4d4d4;height:900px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:900px;}
+#mainwrap{margin:0 auto;overflow:hidden;position:relative;width:600px;}
+#lgcard{background-color:#fff;border:1px solid #d4d4d4;height:600px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:600px;}
 #cardstyle{background-color:#fff;border:1px solid #d4d4d4;height:300px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:600px;}
-#content{background-color:#fafafa;height:900px;overflow:hidden;position:relative;width:900px;}
+#content{background-color:#fafafa;height:600px;overflow:hidden;position:relative;width:600px;}
 #pagecontainer{position:relative;width:9999px;}
 .section{float:left;height:275px;margin-right:50px;padding:0 10px 25px;position:relative;width:568px;}
-.sectionlg{float:left;height:900px;margin-right:50px;padding:0 10px 25px;position:relative;width:900px;}
+.sectionlg{float:left;height:600px;margin-right:50px;padding:0 10px 25px;position:relative;width:600px;}
 
 #menuwrap{margin:0 auto;}
 #iconmenu{bottom:0;clear:both;height:22px;left:180px;overflow:hidden;padding:8px 0 6px 10px;position:absolute;text-align:center;width:auto;z-index:100;}
@@ -39,7 +39,7 @@ h2{color:#333;font:22px Cabin, sans-serif;padding:6px 0 10px;}
 #start h1{color:#2e6dd1;font:normal 90px Allura, Helvetica;line-height:0.9em;margin:0;padding:10px 0;text-align:center;text-shadow:0 1px 0 #fff;}
 p.tagline{color:#666;font-size:16px;text-align:center;}
 
-#bio{height:900px;margin:125px auto 20px; overflow:hidden;padding:6px;position:relative;width:900px;}
+#bio{height:600px;margin:125px auto 20px; overflow:hidden;padding:6px;position:relative;width:600px;}
 #bio img{border:3px solid #fff;box-shadow:1px 1px 0px #aaa;}
 
 .poptroxactive{list-style:none;margin:0 auto;padding:0;width:100%;}
