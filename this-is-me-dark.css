@@ -22,8 +22,9 @@ h2{color:#333;font:22px Cabin, sans-serif;padding:6px 0 10px;}
 
 #mainwrap{margin:0 auto;overflow:hidden;position:relative;width:640px;}
 #cardstyle{background-color:#fff;border:1px solid #d4d4d4;height:300px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:600px;}
-#largecard{background-color:#fff;border:1px solid #d4d4d4;height:900px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:600px;}
+#largecard{background-color:#fff;border:1px solid #d4d4d4;height:900px;margin:125px auto 20px;overflow:hidden;padding:6px;position:relative;width:900px;}
 #content{background-color:#fafafa;height:300px;overflow:hidden;position:relative;width:600px;}
+#largecontent{background-color:#fafafa;height:900px;overflow:hidden;position:relative;width:900px;}
 #pagecontainer{position:relative;width:9999px;}
 .section{float:left;height:275px;margin-right:50px;padding:0 10px 25px;position:relative;width:568px;}
 
