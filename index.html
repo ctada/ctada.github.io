@@ -1,162 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.png">
-    <title>Celine Ta | Portfolio</title>
-    <link href="css/style.css" rel="stylesheet">
-    <script src="js/chart.js"></script>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.fancybox').fancybox();
-      });
-    </script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Your description goes here" />
+	<meta name="keywords" content="your,keywords,goes,here" />
+	<meta name="author" content="Your Name" />
+	<link href='http://fonts.googleapis.com/css?family=Allura|Cabin' rel='stylesheet' type='text/css' />
+	<link type="text/css" rel="stylesheet" href="this-is-me-dark.css" media="screen" />
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<title>Celine Ta | Engineer & Designer</title>
+</head>
 
-    <script src="js/jquery.fancybox.js"></script>
-    <link rel="stylesheet" href="css/jquery.fancybox.css" media="screen" />
+<body class="inverted">
+<div id="mainwrap">
 
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+<div id="cardstyle">
+	<div id="menuwrap">
+		<ul id="iconmenu">
+			<li><a href="#start" title="Start"><img src="img/icons/start.png" alt="Start" /></a></li>
+			<li><a href="#bio" title="Biography"><img src="img/icons/bio.png" alt="Biography" /></a></li>
+			<li><a href="#portfolio" title="Portfolio"><img src="img/icons/portfolio.png" alt="Portfolio" /></a></li>
+			<li><a href="#social" title="Social links"><img src="img/icons/social.png" alt="Social links" /></a></li>
+			<li><a href="#custom" title="Custom page"><img src="img/icons/chat.png" alt="Custom page" /></a></li>
+			<li><a href="#contact" title="Contact me"><img src="img/icons/contact.png" alt="Contact me" /></a></li>
+		</ul>
+	</div>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+	<div id="content">
+		<div id="pagecontainer">
+			<ul>
+				<li id="start" class="section">
+					<h1>Celine Ta</h1>
+					<p class="tagline">engineer - designer - maker</p>
+				</li>
 
-  </head>
+				<li id="bio" class="section">
+					<h2>About Me</h2>
+					<img class="left" src="img/photo.jpg" alt="Sample photo" />
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</li>
 
-  <body>
-  <div class="sticky">
-    <!-- NAVBAR ================================================== -->
-    <div class="top-bar">
-      <div class="container clearfix">
-        <ul class="social">
-          <li><a href="#" class="fb"></a></li>
-          <li><a href="#" class="gp"></a></li>
-          <li><a href="#" class="tw"></a></li>
-          <li><a href="#" class="in"></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="navbar-wrapper">
-      <div class="container">
-        <div class="navbar navbar-inverse navbar-static-top clearfix" role="navigation">
-            <div class="navbar-header clearfix">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <h1><a class="navbar-brand" href="#">Celine Ta - Insert Logo</a></h1>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="custom.html">Resume</a></li>
-                <li><a href="contact.html">Contact Info</a></li>
-              </ul>
-            </div>
-        </div>
-      </div>
-    </div>
+				<li id="portfolio" class="section">
+					<h2>Portfolio 1</h2>
+					<ul class="poptroxactive">
+						<li><a href="img/portfolio/sample1.jpg"><img src="img/portfolio/sample1_thumbnail.jpg" title="Sample photo #1" alt="" /></a></li>
+						<li><a href="img/portfolio/sample2.jpg"><img src="img/portfolio/sample2_thumbnail.jpg" title="Sample photo #2" alt="" /></a></li>
+						<li><a href="img/portfolio/sample3.jpg"><img src="img/portfolio/sample3_thumbnail.jpg" title="Sample photo #3" alt="" /></a></li>
+						<li><a href="img/portfolio/sample4.jpg"><img src="img/portfolio/sample4_thumbnail.jpg" title="Sample photo #4" alt="" /></a></li>
+						<li><a href="img/portfolio/sample5.jpg"><img src="img/portfolio/sample5_thumbnail.jpg" title="Sample photo #5" alt="" /></a></li>
+						<li><a href="img/portfolio/sample6.jpg"><img src="img/portfolio/sample6_thumbnail.jpg" title="Sample photo #6" alt="" /></a></li>
+						<li><a href="img/portfolio/sample7.jpg"><img src="img/portfolio/sample7_thumbnail.jpg" title="Sample photo #7" alt="" /></a></li>
+						<li><a href="img/portfolio/sample8.jpg"><img src="img/portfolio/sample8_thumbnail.jpg" title="Sample photo #8" alt="" /></a></li>
+					</ul>
+					<p class="portfoliomore"><a href="#portfolio2">Next page</a></p>
+				</li>
 
-    <!-- Carousel ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="">
-          <img src="images/slide_01.jpg" alt="" />
-        </div>
-        <div class="item">
-          <img data-src="holder.js/900x500/auto/#111:#333333/text:Second slide" alt="">
-          <img src="images/slide_02.jpg" alt="" />
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+				<li id="portfolio2" class="section">
+					<h2>Portfolio 2</h2>
+					<ul class="poptroxactive">
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+						<li><a href="img/portfolio/sample.jpg"><img src="img/portfolio/sample_thumbnail.jpg" title="Sample photo, showing a small waterfall" alt="" /></a></li>
+					</ul>
+					<p class="portfoliomore"><a href="#portfolio">Previous page</a></p>
+				</li>
 
+				<li id="social" class="section">
+					<h2>Social networks</h2>
+					<ul>
+						<li><a href="http://wordpress.com/" class="external"><img src="img/icons/wordpress.png" alt="WordPress" />
+						<strong>WordPress blog</strong> myownblog.wordpress.com</a></li>
+						<li><a href="http://gmail.com/" class="external"><img src="img/icons/mail.png" alt="Mail" /> <strong>GMail</strong> mail@yourdomain.com</a></li>
+						<li><a href="http://facebook.com/" class="external"><img src="img/icons/facebook.png" alt="Facebook" />
+						<strong>Facebook</strong>facebook.com/username</a></li>
+						<li><a href="http://twitter.com/" class="external"><img src="img/icons/twitter.png" alt="Twitter" />
+						<strong>Twitter</strong> twitter.com/username</a></li>
+						<li><a href="http://linkedin.com/" class="external"><img src="img/icons/linkedin.png" alt="Linkedin" />
+						<strong>LinkedIn</strong>linkedin.com/in/username</a></li>
+						<li><a href="http://flickr.com/" class="external"><img src="img/icons/flickr.png" alt="flickr" /> <strong>Flickr</strong> flickr.com/username</a></li>
+					</ul>
+				</li>
 
+				<li id="custom" class="section">
+					<h2>Custom page</h2>
+					<p>This is an example of a non-specific page, that can be customized to show whatever you want to display. You can use it for testimonials, product presentations or anything else that you find relevant for your site. Just make sure that the height of your content is within the height of the layout, as longer content will not be displayed.</p>
+				</li>
+	
+				<li id="contact" class="section">
+					<h2>Contact</h2>
+					<div id="address">
+						<h3>Your Name</h3>
+						<p>Street Name XX,<br />
+						Floor YY,<br />
+						City Name, Country</p>
+						<p>Telephone: +123 000 000<br />
+						Mobile: +123 000 000<br />
+						E-mail: <a href="#">youraddress@yourserver.com</a>
+						</p>
+					</div>
+					<div id="map">
+						<img alt="Sample map" src="http://maps.googleapis.com/maps/api/staticmap?center=59.32463,18.073583&amp;zoom=11&amp;size=305x200&amp;sensor=false&amp;markers=color:red%7C59.32463,18.073583" />           
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
 
-    <!-- Contant -->
-
-    <div class="container clearfix mb-20">
-      <div class="c12 row">
-        <p class="welcome-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-      </div>
-      <h2><span>What we do?</span></h2>
-      <div class="c3 charts">
-        <canvas id="canvas" height="210" width="210"></canvas>
-        <p><span>96%</span><br />Photography</p>
-        <script>
-          var doughnutDataOne = [{value: 96,color:"#70c1ff"},{value: 4,color: "#daf2ff"},];
-          var myDoughnut = new Chart(document.getElementById("canvas").getContext("2d")).Doughnut(doughnutDataOne);
-        </script>
-      </div>
-      <div class="c3 charts">
-        <canvas id="canvas2" height="210" width="210"></canvas>
-        <p><span>61%</span><br />Web design</p>
-        <script>
-          var doughnutDataTwo = [{value: 61,color:"#70c1ff"},{value: 39,color: "#daf2ff"},];
-          var myDoughnut = new Chart(document.getElementById("canvas2").getContext("2d")).Doughnut(doughnutDataTwo);
-        </script>
-      </div>
-      <div class="c3 charts">
-        <canvas id="canvas3" height="210" width="210"></canvas>
-        <p><span>53%</span><br />Development</p>
-        <script>
-          var doughnutDataThree = [{value: 53,color:"#70c1ff"},{value: 47,color: "#daf2ff"},];
-          var myDoughnut = new Chart(document.getElementById("canvas3").getContext("2d")).Doughnut(doughnutDataThree);
-        </script>
-      </div>
-      <div class="c3 charts">
-        <canvas id="canvas4" height="210" width="210"></canvas>
-        <p><span>13%</span><br />Other</p>
-        <script>
-          var doughnutDataFour = [{value: 13,color:"#70c1ff"},{value: 77,color: "#daf2ff"},];
-          var myDoughnut = new Chart(document.getElementById("canvas4").getContext("2d")).Doughnut(doughnutDataFour);
-        </script>
-      </div>
-      <div class="clearfix"></div>
-      <h2><span>Portfolio</span></h2>
-      <div class="c4 portfolio-thumb">
-        <a class="fancybox" data-fancybox-group="gallery" rel="group" href="images/portfolio-01.jpg" title="Venice sunset"><img src="images/portfolio-thumb-01.jpg" alt="" /></a>
-      </div>
-      <div class="c4 portfolio-thumb">
-        <a class="fancybox" data-fancybox-group="gallery" rel="group" href="images/portfolio-02.jpg" title="Rio de Janeiro"><img src="images/portfolio-thumb-02.jpg" alt="" /></a>
-      </div>
-      <div class="c4 portfolio-thumb">
-        <a class="fancybox" data-fancybox-group="gallery" rel="group" href="images/portfolio-03.jpg" title="Venetian Grand Canal at evening"><img src="images/portfolio-thumb-03.jpg" alt="" /></a>
-      </div>
-    
-    </div><!-- /.container -->
-    <div class="push"></div>
-  </div>
-    <!--FOOTER-->
-    <div class="footer">
-      <div class="container clearfix">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Your Name | Template design by Veselka for <a href="http://www.andreasviklund.com">andreasviklund.com</a> | Best hosted at <a href="http://www.svenskadomaner.se">www.svenskadomaner.se</a></p>
-      </div>
-    </div>
-    
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
-  </body>
+<div id="footer">
+	© 2012 Your Name &middot; <a href="http://andreasviklund.com/templates/this-is-me-dark/">Template design</a> by <a href="http://andreasviklund.com/">andreasviklund.com</a><br />Best hosted at <a href="https://www.svenskadomaner.se/?ref=mall&amp;ling=en" title="Svenska Domäner AB">www.svenskadomaner.se</a>
+</div>
+  
+<script type="text/javascript">
+$('.poptroxactive').each(function() {
+   $(this).poptrox();
+});
+</script>
+</div>
+</body>
 </html>
