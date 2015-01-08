@@ -18,7 +18,7 @@ vertical-align:baseline;
 }
 body{background-color:#fafafa;
 	color:#646464;
-font:12px/16px Cabin, Helvetica, Arial, sans-serif;
+font:14px/18px Cabin, Helvetica, Arial, sans-serif;
 }
 ol,ul{list-style:none;
 	list-style-image:none;
@@ -79,7 +79,7 @@ width:1000px;
 }
 .section{float:left;
 	height:275px;
-margin-left:150px;
+margin-left:220px;
 margin-right:220px;
 padding:0 10px 25px;
 position:relative;
