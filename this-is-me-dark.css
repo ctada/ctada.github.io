@@ -102,7 +102,7 @@ height:50px;
 left:400px;
 overflow:hidden;
 padding:8px 0 6px 10px;
-position:relative;
+position:absolute;
 text-align:center;
 width:auto;
 z-index:100;
