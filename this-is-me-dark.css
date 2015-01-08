@@ -65,7 +65,7 @@ height:300px;
 margin:125px auto 20px;
 overflow:hidden;
 padding:6px;
-position:relative;
+position:absolute;
 width:600px;
 }
 #content{background-color:#1a1a1a;
@@ -158,7 +158,7 @@ margin:0 30px 8px 0;
 .poptroxactive li img{border:3px solid #fff;
 	box-shadow:1px 1px 0px #aaa;
 cursor:pointer;
-width:100px;
+width:200px;
 }
 .poptrox_popup{background:#fff;
 	border-radius:12px;
