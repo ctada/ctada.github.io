@@ -151,8 +151,8 @@ width:1000px;
 padding:0;
 width:100%;
 }
-.poptroxactive li{float:left;
-	height:110px;
+.poptroxactive li{float:bottom left;
+	height:220px;
 margin:0 30px 8px 0;
 }
 .poptroxactive li img{border:3px solid #fff;
