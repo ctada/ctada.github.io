@@ -70,7 +70,7 @@ width:600px;
 }
 #content{background-color:#1a1a1a;
 	height:600px;
-overflow:auto;
+overflow:hidden;
 position:relative;
 width:1000px;
 }
