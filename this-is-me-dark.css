@@ -92,8 +92,9 @@ margin-right:200px;
 margin-left:200px;
 padding:0 10px 25px;
 position:relative;
-width:1000px;
-overflow: scroll;
+/*width: :1000px;*/
+width:990px;
+overflow: auto;
 }
 img.displayed{
     display: block;
