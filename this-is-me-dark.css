@@ -238,7 +238,7 @@ width:100%;
 }
 #footer a{color:#999;
 }
-#custom{
+.scroll{
 	overflow: scroll;
 }
 /* If you want to add styles for the custom page, you can do it by using the ID #custom, like this:
