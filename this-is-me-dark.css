@@ -93,6 +93,12 @@ padding:0 10px 25px;
 position:relative;
 width:1000px;
 }
+img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
 
 #menuwrap{margin:0 auto;
 }
