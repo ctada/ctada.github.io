@@ -238,7 +238,9 @@ width:100%;
 }
 #footer a{color:#999;
 }
-
+#custom{
+	overflow: auto
+}
 /* If you want to add styles for the custom page, you can do it by using the ID #custom, like this:
 #custom h2{color:blue;
 }
