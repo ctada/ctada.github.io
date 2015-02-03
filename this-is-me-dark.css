@@ -26,6 +26,7 @@ list-style-position:outside;
 list-style-type:none;
 }
 a img{border:none;
+	cursor: pointer;
 }
 a{color:#000;
 	text-decoration:none;
@@ -98,7 +99,10 @@ img.displayed{
     margin-left: auto;
     margin-right: auto 
 }
-
+img.padded{
+	float:left;
+	margin:0 30px 8px 0;
+}
 
 #menuwrap{margin:0 auto;
 }
