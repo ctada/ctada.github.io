@@ -266,6 +266,7 @@ p.footer-class a:hover{
 }
 ul.social{
 	background: rgba(55, 53, 52, 0.73);
+	margin-top: 5.5em;
 	padding: 1.5em 5em 1.5em 1.5em;
 	text-align:left;  
 }
@@ -302,7 +303,7 @@ ul.social li  i.down{
 	background-position:-108px -49px;
 }
 .arrow {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   text-align: right;
@@ -1142,7 +1143,7 @@ ul.archive-grid li a:hover{
     width: 55%;
   background: #fff;
   padding: 3em;
-  position: absolute;
+  position: relative;
   top: 3%;
   z-index: 1;
   left: 3%;

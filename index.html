@@ -10,14 +10,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Celine Ta | Engineer & Designer</title>
 <!-- jQuery-->
 <script src="js/jquery.min.js"></script>
-<script> window.alert("This website is under construction. Please check back soon or email celine.ta@students.olin.edu!")</script>
+<!--<script> window.alert("This website is under construction. Please check back soon or email celine.ta@students.olin.edu!")</script>-->
 <!-- Custom Theme files -->
 <!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="css/style_orig.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Celine Ta, engineer, design, product, user research, experience, interdisciplinary" />
+<meta name="keywords" content="Celine, Ta, engineer, design, product, user research, experience, interdisciplinary, Olin, student, engineering, portfolio, intern" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--fonts-->
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
@@ -38,13 +38,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li><a href="contact.html" class="black3" > CONTACT</a></li>
 				</ul>
 			</div>
-			<ul class="social-in">
-				<li><a href="#"><i> </i></a></li>
-				<li><a href="#"><i class="gmail"> </i></a></li>
-				<li><a href="#"><i class="pin"> </i></a></li>
-				
-			</ul>
-			<p class="footer-class">Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 		<!---->
 		<!---->
@@ -77,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
 								<span>Kitchenware for Low Vision</span>
-								<p>codesign, prototyping, and production</p>
+								<p>codesign, prototyping</p> <!-- and production -->
 								<i> </i>
 							</h2>
 						</div>
@@ -89,14 +82,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
 								<span>Intuitive Prosthetics</span>
-								<p>agile development, accessible tech</p>
+								<p>low-cost, agile</p>
 								<i> </i>
 							</h2>
 						</div>
 				</a>
 			</div>
 			<div class="content-grid">
-				<a href="comingsoon.html" class="b-link-stripe b-animate-go  thickbox"> <!--TODO: UOCD Page-->
+				<a href="uocd.html" class="b-link-stripe b-animate-go  thickbox"> <!--TODO: UOCD Page-->
 					<img  src="images/portfolio/final/portfolio_images-06.jpg" /> <!-- L_f logo w/ person with hands up in media -->
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
@@ -108,7 +101,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</a>
 			</div>
 			<div class="content-grid">
-				<a href="comingsoon.thml" class="b-link-stripe b-animate-go  thickbox"> <!--TODO: P&M Page-->
+				<a href="comingsoon.html" class="b-link-stripe b-animate-go  thickbox"> <!--TODO: P&M Page-->
 					<img  src="images/portfolio/final/portfolio_images-04.jpg" />
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
@@ -125,7 +118,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
 								<span>IoT@Home</span>
-								<p>agile prototyping, opportunity exploration</p>
+								<p>opportunity exploration</p>
 								<i> </i>
 							</h2>
 						</div>
@@ -138,12 +131,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="b-wrapper">
 							<h2 class="b-animate b-from-left    b-delay03 ">
 								<span>Sickle Cell Diagnostics</span>
-								<p>global health, technical development, workflow design</p>
+								<p>global health, product design</p>
 								<i> </i>
 							</h2>
 						</div>
 				</a>
 			</div>
+			<!--
 			<div class="content-grid">
 				<a href="comingsoon.html" class="b-link-stripe b-animate-go  thickbox">
 					<img  src="images/portfolio/final/portfolio_images-07.jpg" />
@@ -156,7 +150,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 				</a>
 			</div>
-			<!--
+			
 			<div class="content-grid">
 				<a href="single.html" class="b-link-stripe b-animate-go  thickbox">
 					<img  src="images/portfolio/final/portfolio_images-07.jpg" />
@@ -291,15 +285,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</a>
 			</div>
 		-->
+		<!--
 			<div class="clear"> </div>
 			<div class="arrow">
-				<img  src="images/ic.png" />
-				<ul class="social ">
+				<img src="images/ic.png" onclick="show()" style="position:fixed;right:0px;"/>
+				<ul class="social " id="contact" style="display:none;">
 					<li><span><i> </i>818 451 5284</span></li>
 					<li><a href="mailto:celine.ta@students.olin.edu"><i class="mes"> </i>celine.ta@students.olin.edu</a></li>
-					<!--<li><span><i class="down"> </i>street address example</span></li>-->
 				</ul>
 			</div>
+			<script type="text/javascript">
+				var show_contact = false;
+				function show(){
+					console.log("clicked");
+					show_contact= !show_contact;
+					console.log(show_contact);
+					if (show_contact){
+						document.getElementById("contact").style.display="";
+						console.log("display");
+					}
+					else{
+						document.getElementById("contact").style.display="none";
+						console.log("no display");
+					}
+				}
+			</script>
+		-->
 		</div>
 		<div class="clear"> </div>
 		<p class="footer-class-in">Copyright © 2015 Kappe Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
