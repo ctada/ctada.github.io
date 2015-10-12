@@ -114,7 +114,7 @@ body a{
 	background: linear-gradient(to bottom,  rgba(50,58,62,1) 0%,rgba(46,54,58,1) 100%);
 }
 .top-nav ul li  a:hover,.top-nav ul li.active a {
-	background: #23aeac;
+	background: #C30017;
 }
 ul.social-in {
   text-align: right;
@@ -255,7 +255,8 @@ p.footer-class a:hover{
 .b-from-left{
 	position: relative;
 	left: -100%;
-	background:rgba(45, 184, 183, 0.81);
+	background:#C30017;
+	opacity: .9;
 	background-size: 100% 100%;
 	top: 0px;
 	margin: 0;
@@ -280,7 +281,7 @@ ul.social li span,ul.social li a{
 }
 ul.social li a:hover{
 	text-decoration:none;
-	color:#1ab5b3;
+	color:#C30017;
 }
 ul.social li  i{
 	  background: url(../images/img-sprite.png)no-repeat -39px -49px;
@@ -375,7 +376,7 @@ ul.social li  i.down{
 	background:#b6b6b6;
 }
 .callbacks_here a:after{
-	background:#1ab5b3;
+	background:#C30017;
 }
 .callbacks_tabs a{
 	visibility:hidden;
@@ -399,7 +400,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-decoration:none;
 }
 .work-top h2 a:hover{
-	color: #1ab5b3;
+	color: #C30017;
 }
 .work-top p{
 	color:#a3a3a3;
@@ -444,7 +445,7 @@ ul.likes li a,ul.likes li span{
 }
 ul.likes li a:hover{
 	text-decoration:none;
-	color:#1ab5b3;
+	color:#C30017;
 }
 ul.likes li  i{
 	background: url(../images/img-sprite.png)no-repeat -14px -91px ;
@@ -473,8 +474,8 @@ ul.tag li{
 	margin: 0 0.5em 0 0;
 }
 ul.tag li a:hover{
-	color: #1ab5b3;
-	border: 1px solid #1ab5b3;
+	color: #C30017;
+	border: 1px solid #C30017;
 }
 ul.gallery-grid li{
 	float:left;
@@ -492,7 +493,7 @@ ul.feature-grid li a{
 	display:block;
 }
 ul.feature-grid li a:hover{
-	color:#1ab5b3;
+	color:#C30017;
 }
 ul.feature-grid li i{
 	background: url(../images/img-sprite.png)no-repeat -188px -52px ;
@@ -529,7 +530,8 @@ ul.feature-grid li i{
 	text-decoration:none;
 }
 .about-top h2 a:hover{
-	color: #1ab5b3;
+	color: #C30017;
+	/*color: #1ab5b3;*/
 }
 .about-top p{
 	color:#a3a3a3;
@@ -645,7 +647,7 @@ h4.author{
 	border:1px solid #E2E0E0;
 }
 .simple{
-	  background: #1ab5b3;
+	  background: #C30017;
   padding: 4em 0 0;
   text-align: center;
   width: 100%;
@@ -685,7 +687,7 @@ ul.service-grid li a{
 	display:block;
 }
 ul.service-grid li a:hover{
-	color:#1ab5b3;
+	color:#C30017;
 	text-decoration:none;
 }
 ul.service-grid li i{
@@ -722,7 +724,7 @@ ul.service-grid li i{
 	text-decoration:none;
 }
 .blog-in h5 a:hover{
-	color:#1ab5b3;
+	color:#C30017;
 }
 .blog-in p{
 	color:#9c9c9c;
@@ -772,7 +774,7 @@ ul.date li a{
 	display:block;
 }
 .col-in{
-	background:#1ab5b3;
+	background:#C30017;
 	padding: 1.5em;
 	text-align: center;
 	margin: 0 0 1.5em;
@@ -805,7 +807,7 @@ iframe{
 	background:#242b2e;
 	padding: 1.5em;
 	margin: 0 0 1.5em;
-	  border-left: 12px solid #1ab5b3;
+	  border-left: 12px solid #C30017;
 }
 .col-in-at p{
 	color:#9c9c9c;
@@ -821,7 +823,7 @@ iframe{
 	text-decoration:none;	
 }
 .col-in-at h5 a:hover{
-	color:#1ab5b3;	
+	color:#C30017;	
 }
 .col-on{
 	background:#242b2e;
@@ -836,7 +838,7 @@ iframe{
 	font-style: italic;
 }
 .col-on span{
-	color:#1ab5b3;
+	color:#C30017;
 	font-size: 1em;
 }
 .col-on img{
@@ -869,7 +871,7 @@ iframe{
 }
 .four h2{
 	font-size: 4em;
-	color: #1ab5b3;
+	color: #C30017;
 }
 .four h3{
 	font-size:4em;
@@ -879,7 +881,7 @@ iframe{
 a.just-do {
   text-decoration: none;
   color: #fff;
-  background: #1ab5b3;
+  background: #C30017;
   padding: 0.7em 1.3em;
   font-size: 1.1em;
 }
@@ -1028,7 +1030,7 @@ label.arrow-in {
 .grid-single-in input[type="submit"] {
   width: 100%;
   font-size: 1.1em;
-  background: #1ab5b3;
+  background: #C30017;
   padding: 0.7em 1em;
   text-align: center;
   color: #fff;
@@ -1073,7 +1075,7 @@ ul.archive-grid li a{
 	display:block;
 }
 ul.archive-grid li a:hover{
-	color:#1ab5b3;
+	color:#C30017;
 }
 /*--contact--*/
 .your-top {
@@ -1117,7 +1119,7 @@ ul.archive-grid li a:hover{
 .grid-contact-in input[type="submit"] {
   width: 100%;
   font-size: 1.1em;
-  background: #1ab5b3;
+  background: #C30017;
   padding: 0.7em 1em;
   text-align: center;
   color: #fff;
@@ -1805,7 +1807,7 @@ span.menu {
 	z-index: 9999;
 	left: 0%;
 	margin:1em 0em;
-	background:#1ab5b3;
+	background:#C30017;
 	border:0;
 }
 .top-nav-in span.menu{
@@ -2074,5 +2076,5 @@ h4.author {
 }
 }
 a:link {
-color: #23aeac;
+color: #C30017;
 }
