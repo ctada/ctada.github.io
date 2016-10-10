@@ -1,0 +1,38 @@
+﻿added content up to fall 2016 projects
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Oct 10 00:10:40 2016 -0400
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Capstone_Statement1.pdf
+#	new file:   Capstone_Statement2.pdf
+#	new file:   LifeTags_PitchDeck.pdf
+#	new file:   ahscap.html
+#	new file:   images/portfolio/AHSCap_Display1.JPG
+#	new file:   images/portfolio/AHSCap_Display2.JPG
+#	new file:   images/portfolio/AHSCap_ProtoTools.JPG
+#	new file:   images/portfolio/AHSCap_Prototype.JPG
+#	new file:   images/portfolio/AHSCap_Sketchbook.JPG
+#	new file:   images/portfolio/AHSCap_Sketches.JPG
+#	new file:   images/portfolio/IPD_EcosystemMap.jpg
+#	new file:   images/portfolio/IPD_Process.jpg
+#	new file:   images/portfolio/Otter_Model.jpg
+#	new file:   images/portfolio/Otter_Tim.jpg
+#	new file:   images/portfolio/Otter_electrical.jpg
+#	new file:   images/portfolio/final/portfolio-images-10.JPG
+#	modified:   images/portfolio/final/portfolio_images-07.jpg
+#	modified:   images/portfolio/final/portfolio_images-08.jpg
+#	deleted:    images/portfolio/final/portfolio_images-10.jpg
+#	new file:   images/portfolio/final/portfolio_images-pending.jpg
+#	modified:   index.html
+#	modified:   meme.html
+#	new file:   otter.html
+#	new file:   prisonwellness.html
+#	modified:   sicklecell.html
+#
+
