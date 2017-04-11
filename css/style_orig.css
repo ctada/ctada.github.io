@@ -403,7 +403,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	color: #C30017;
 }
 .work-top p{
-	color:#a3a3a3;
+	color:#363636;
 	font-size: 1.1em;
 	line-height: 1.7em;
 	font-weight: 300;
@@ -439,7 +439,7 @@ ul.likes li{
 }
 ul.likes li a,ul.likes li span{
 	font-size:1em;
-	color:#848484;
+	color:#363636;
 	margin: 0 0 0.5em;
 	display: block;
 }
@@ -466,7 +466,7 @@ ul.likes li  i.comment{
 }
 ul.tag li{
 	display:inline-block;
-	color: #a3a3a3;
+	color: ##363636;
 	font-size: 0.8em;
 	padding: 0.8em;
 	border: 1px solid #D5D3D3;
@@ -534,7 +534,7 @@ ul.feature-grid li i{
 	/*color: #1ab5b3;*/
 }
 .about-top p{
-	color:#a3a3a3;
+	color:#363636;
 	font-size: 1.1em;
 	line-height: 1.7em;
 	font-weight: 300;
@@ -897,13 +897,14 @@ a.just-do:hover {
 .single-top {
   border-right: 1px solid #D5D3D3;
   padding: 0 2% 0 0;
-}
-.single-top, .single-in {
   float: left;
-  width: 47.9%;
+  width: 65.8%;
 }
 .single-in {
   padding: 0 0 0 2%;
+  float: left;
+  width: 30%; 
+  /*single-top + single-in width must = 95.8% of page*/
 }
 .single-top h2 {
   color: #000;
@@ -912,12 +913,13 @@ a.just-do:hover {
   padding: 0.5em 0;
 }
 .single-top p {
-  color: #a3a3a3;
+  color: #363636;
   font-size: 1.1em;
   line-height: 1.7em;
   font-weight: 300;
   padding: 0 0 1em;
-}
+  font-style: bold;
+ }
 .single-top p span {
   padding: 2em 0 0;
   display: block;
@@ -1152,7 +1154,7 @@ ul.archive-grid li a:hover{
 	font-size:1.8em;
 }
 .contact p{
-	color: #a3a3a3;
+  color: #363636;
   font-size: 1.1em;
   line-height: 1.7em;
   font-weight: 300;
